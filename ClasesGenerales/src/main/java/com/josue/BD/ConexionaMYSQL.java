@@ -16,8 +16,9 @@ public class ConexionaMYSQL {
     private static Connection ConnectionBD = null;
 
     public Connection getConecction() {
+        
         try {
-            String url = "jdbc:mysql://localhost:3306/clase";
+            String url = "jdbc:mysql://localhost:3306/libreriabd";
             String user = "josue";
             String password = "ajsj1";
 
